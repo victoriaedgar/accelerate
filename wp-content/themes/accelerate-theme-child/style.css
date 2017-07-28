@@ -22,6 +22,42 @@
 
 }
 
+#masthead nav ul li{
+	float: left;
+	margin: 0 10px;
+}
+
+#masthead nav ul li a{
+	text-transform: uppercase;
+}
+
+#masthead nav ul li a:hover{
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+#masthead nav ul li a:active{
+	font-weight:bold;
+}
+
+.homepage-featured-work {
+	list-style-type: none;
+	padding: 0;
+	margin-left: auto;
+}
+
+div.site-content h4{
+	
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0;
+
+}
+
+div.site-content h3{
+	font-size: 16px;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -50,3 +86,70 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+ul, ol{
+margin:0 0 0px 20px;
+
+}
+
+/* Case Studies Styles */
+
+aside.case-study-sidebar{
+	float: left;
+	width: 314px;
+	margin: 30px 40px 30px 0;
+
+}
+
+div.case-study-images {
+	float: left;
+	width: 200px;
+}
+
+div.case-study-images img {
+	margin-bottom: 50px;
+	border:1px solid #dddddd;
+	width: 600px;
+	margin: 40px 0 30px 0;
+}
+
+h5{
+	font-size: 22px;
+    font-size: 14px;
+    color: #878787;
+    font-weight: 200;
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+
+h6{
+	font-size: 22px;
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: 200;
+    margin: 0;
+    padding: 18px 0 18px 0;
+}
+
+aside.case-study-sidebar p a {
+font-weight: bold;
+color: #2b2b2b;
+font-size: 16px;
+text-transform: uppercase;
+color: #45ac9d;
+
+}
+
+aside.case-study-sidebar p {
+padding-top: 10px;
+
+}
+
+li.individual-featured-work{
+	display: inline-block;
+
+}
+
+
+
+
