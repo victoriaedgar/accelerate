@@ -1,0 +1,201 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 80%;
+}
+
+.blog-post h4 {
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+
+.blog-post h2 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+
+/*
+#masthead nav ul li{
+	float: left;
+	margin: 0 10px;
+}
+
+#masthead nav ul li a{
+	text-transform: uppercase;
+}
+
+#masthead nav ul li a:hover{
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+#masthead nav ul li a:active{
+	font-weight:bold;
+}
+
+.homepage-featured-work {
+	list-style-type: none;
+	padding: 0;
+	margin-left: auto;
+}
+
+div.site-content h4{
+	
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0;
+
+}
+
+div.site-content h3{
+	font-size: 16px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+
+.blog-post h2 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+*/
+
+/*
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+ul, ol{
+margin:0 0 0px 20px;
+}
+
+aside.case-study-sidebar{
+	float: left;
+	width: 314px;
+	margin: 30px 40px 30px 0;
+
+}
+
+div.case-study-images {
+	float: left;
+	width: 200px;
+}
+
+div.case-study-images img {
+	margin-bottom: 50px;
+	border:1px solid #dddddd;
+	width: 600px;
+	margin: 40px 0 30px 0;
+}
+
+h5{
+	font-size: 22px;
+    font-size: 14px;
+    color: #878787;
+    font-weight: 200;
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+
+h6{
+	font-size: 22px;
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: 200;
+    margin: 0;
+    padding: 18px 0 18px 0;
+}
+
+aside.case-study-sidebar p a {
+font-weight: bold;
+color: #2b2b2b;
+font-size: 16px;
+text-transform: uppercase;
+color: #45ac9d;
+
+}
+
+aside.case-study-sidebar p {
+padding-top: 10px;
+
+}
+
+li.individual-featured-work{
+	display: inline-block;
+
+}
+
+/*
+
+
